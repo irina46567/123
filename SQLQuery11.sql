@@ -23,7 +23,7 @@ create table [Order]
 (
 	OrderID int primary key identity,
 	OrderStatus nvarchar(max) not null,
-	OrderDeliveryDate datetime not null,
+	OrderDeliveryDate date not null,
 	OrderPickupPoint nvarchar(max) not null
 )
 go
